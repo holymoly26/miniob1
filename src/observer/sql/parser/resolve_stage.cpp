@@ -53,6 +53,5 @@ RC ResolveStage::handle_request(SQLStageEvent *sql_event)
   }
 
   sql_event->set_stmt(stmt);
-
   return rc;
 }
